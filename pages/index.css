@@ -1,0 +1,41 @@
+.index-screen {
+  display: flex;
+  flex-direction: column;
+  margin: var(--body-margin);
+  text-align: center;
+}
+
+.index-screen__header {
+  margin-top: 60px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.index-screen__text {
+  display: flex;
+  margin-top: 60px;
+  padding: 0 50px;
+  color: var(--subtitle-color);
+}
+.index-screen__text span {
+  display: block;
+}
+
+.index-screen__submits__submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.index-screen__btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.index-screen__form {
+  display: flex;
+}
+
+.index-screen__btn input {
+  display: flex;
+  width: 100px;
+}
