@@ -13,29 +13,60 @@
 
 .index-screen__text {
   display: flex;
-  margin-top: 60px;
-  padding: 0 50px;
+  margin-top: 30px;
+  padding: 0 35px;
   color: var(--subtitle-color);
-}
-.index-screen__text span {
-  display: block;
+  font-weight: 500;
 }
 
-.index-screen__submits__submit {
-  display: flex;
-  flex-direction: column;
-}
-
-.index-screen__btns {
-  display: flex;
-  flex-direction: column;
+.index-screen__submits {
+  margin-top: 60px;
 }
 
 .index-screen__form {
   display: flex;
+  flex-direction: column;
 }
 
-.index-screen__btn input {
-  display: flex;
-  width: 100px;
+.index-screen__form input::placeholder {
+  font-size: 20px;
+  color: var(--subtitle-color);
+  font-weight: 500;
+}
+
+.index-screen__form input:not([type="submit"]) {
+  height: 60px;
+  border: none;
+  border-bottom: 2px solid var(--border-color);
+  font-size: 20px;
+}
+
+.index-screen__form input:focus {
+  outline: none;
+  border-color: var(--marvel-color);
+  transition: border 0.3s ease-in-out;
+}
+
+.login-btn {
+  border: none;
+  height: 50px;
+  font-size: 15px;
+}
+
+.index-screen__form input:nth-child(3) {
+  margin-top: 30px;
+}
+
+.index-screen__form input:nth-child(4) {
+  margin-top: 15px;
+}
+
+.index-screen__link {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
 }
