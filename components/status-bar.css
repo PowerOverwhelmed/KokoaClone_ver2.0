@@ -1,4 +1,6 @@
 .status-bar {
+  z-index: 4;
+
   padding: 5px 10px;
   position: fixed;
   top: 0px;

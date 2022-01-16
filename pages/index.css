@@ -3,6 +3,7 @@
   flex-direction: column;
   margin: var(--body-margin);
   text-align: center;
+  z-index: 0;
 }
 
 .index-screen__header {
