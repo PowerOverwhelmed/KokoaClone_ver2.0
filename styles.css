@@ -1,8 +1,14 @@
 @import "var.css";
 @import "base/reset.css";
 @import "components/status-bar.css";
+@import "components/reddots.css";
 @import "pages/index.css";
 @import "pages/index-loading.css";
+@import "pages/friends.css";
+@import "components/page-header.css";
+@import "components/profile-user.css";
+@import "components/profile-channel.css";
+@import "components/nav-bar.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

@@ -1,0 +1,10 @@
+.reddots {
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  position: absolute;
+  background-color: tomato;
+  top: 0px;
+  right: 0px;
+}
