@@ -1,0 +1,6 @@
+.index-screen {
+  z-index: 0;
+}
+.status-bar {
+  z-index: 2;
+}

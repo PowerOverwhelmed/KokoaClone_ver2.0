@@ -1,0 +1,31 @@
+@import "index-loading-only.css";
+
+@keyframes pageloading {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+.logo {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--marvel-color);
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  animation: pageloading 1s ease-out;
+}
+
+.logo > span {
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+  font-style: oblique;
+}
