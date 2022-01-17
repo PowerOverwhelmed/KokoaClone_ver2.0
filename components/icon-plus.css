@@ -1,0 +1,24 @@
+.comment-icon__plus {
+  margin: 0;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 15px;
+  width: 15px;
+  box-sizing: border-box;
+}
+
+.chats-page__icon-plus {
+  top: 6px;
+  right: 104px;
+}
+
+.div-relative {
+  position: relative;
+}
