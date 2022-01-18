@@ -12,6 +12,9 @@
 @import "components/icon-plus.css";
 @import "pages/chats.css";
 @import "components/profile-chats.css";
+@import "components/redcircle.css";
+@import "pages/find.css";
+@import "components/contents-box.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

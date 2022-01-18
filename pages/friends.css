@@ -61,6 +61,7 @@
 }
 
 .friends-screen__channel-header span {
+  font-weight: 500;
   color: var(--subtitle-color);
 }
 

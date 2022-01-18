@@ -1,5 +1,5 @@
 .page-header {
-  margin-top: 10px;
+  padding-top: 10px;
   display: flex;
   font-size: 30px;
   font-weight: bolder;
@@ -19,4 +19,9 @@
 
 .page-header__header-r i {
   margin-left: 25px;
+}
+
+.page-header__icon-reddots {
+  top: -3px;
+  right: -5px;
 }

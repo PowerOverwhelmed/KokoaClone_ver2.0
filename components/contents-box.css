@@ -1,0 +1,111 @@
+.contents-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.contents-box__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 15px 0px;
+  border-top: 1px solid var(--border-color);
+}
+
+.contents-box__header span {
+  font-weight: 500;
+  color: var(--subtitle-color);
+}
+
+.contents-box__header i {
+  color: rgba(0, 0, 0, 0.2);
+}
+#content__none-div {
+  display: flex;
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+}
+
+#contents-box__content__none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--subtitle-color);
+}
+.contents-box__openchats-content {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  border-bottom: 1px solid var(--border-color);
+  margin-top: 10px;
+}
+
+.opencats-content__left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.opencats-content__left-box__header {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 3px 0px;
+}
+
+.opencats-content__left-box__hashtag {
+  text-transform: uppercase;
+  color: var(--subtitle-color);
+  padding: 3px 0px;
+}
+
+.opencats-content__left-box__members {
+  display: flex;
+  align-items: center;
+  color: var(--subtitle-color);
+  padding: 3px 0px;
+  font-size: 15px;
+}
+
+.opencats-content__left-box__members img {
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+  border-radius: 7px;
+}
+
+.opencats-content__left-box__members span:nth-child(2) {
+  margin-right: 5px;
+}
+
+.opencats-content__left-box__members span:nth-child(3) {
+  color: var(--marvel-color);
+}
+
+.opencats-content__right-box {
+  display: flex;
+  position: relative;
+}
+
+.opencats-content__right-box img {
+  height: 90px;
+  width: 90px;
+  border-radius: 10px;
+}
+
+.heart-numbers {
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 15px;
+  right: 7px;
+}
+
+.heart-numbers i {
+  margin-right: 5px;
+}
