@@ -15,6 +15,8 @@
 @import "components/redcircle.css";
 @import "pages/find.css";
 @import "components/contents-box.css";
+@import "pages/more.css";
+@import "components/profile-more.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
