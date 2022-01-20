@@ -2,9 +2,3 @@
   border-top: 1px solid var(--border-color);
   margin-top: 15px;
 }
-
-.suggestions {
-  display: flex;
-  flex-direction: column;
-  margin-top: 15px;
-}
