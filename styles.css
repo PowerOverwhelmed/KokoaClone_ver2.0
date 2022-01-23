@@ -18,6 +18,8 @@
 @import "pages/more.css";
 @import "components/profile-more.css";
 @import "components/borderline.css";
+@import "pages/settings.css";
+@import "components/red-newmark.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
