@@ -20,6 +20,7 @@
 @import "components/borderline.css";
 @import "pages/settings.css";
 @import "components/red-newmark.css";
+@import "pages/consersation.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
